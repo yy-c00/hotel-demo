@@ -10,6 +10,6 @@ Diseñada para proporcionar y administrar servicio de habitación en auto-hotele
 
 ### Documentación
 
->[go-doc](https://pkg.go.dev/github.com/yy-c00/hotel-demo)
+>[go-doc](https://godoc.org/github.com/yy-c00/hotel-demo)
 
 >[api-doc](https://documenter.getpostman.com/view/12474312/TW6wKUkQ)
