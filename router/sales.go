@@ -7,8 +7,8 @@ import (
 
 	"github.com/labstack/echo/v4"
 	"github.com/olahol/melody"
-	"github.com/yy-c00/hotel-api/database"
-	"github.com/yy-c00/hotel-api/model"
+	"github.com/yy-c00/hotel-demo/database"
+	"github.com/yy-c00/hotel-demo/model"
 )
 
 type salesRouter struct {

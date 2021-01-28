@@ -3,8 +3,8 @@ package router
 import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	middlewares "github.com/yy-c00/hotel-api/middleware"
-	"github.com/yy-c00/hotel-api/model"
+	middlewares "github.com/yy-c00/hotel-demo/middleware"
+	"github.com/yy-c00/hotel-demo/model"
 	"os"
 )
 
@@ -47,14 +47,12 @@ func SetRoutes(e *echo.Echo, r model.Router) {
 	e.POST("user/validate", r.UserAccessRouter.ValidateUser)
 	e.GET("user/available", r.UserAccessRouter.AvailableUsers, middlewares.ToRoot())
 	e.GET("user/logged", r.UserAccessRouter.UserIsLogged, middlewares.ToUser())
-	e.DELETE("user/logout", r.UserAccessRouter.LogoutUser, middlewares.ToUser())
 
 
 	e.POST("room/new", r.RoomAccessRouter.CreateNewRoom, middlewares.ToRoot())
 	e.POST("room/validate", r.RoomAccessRouter.ValidateRoom)
 	e.GET("room/available", r.RoomAccessRouter.AvailableRooms)
 	e.GET("room/logged", r.RoomAccessRouter.RoomIsLogged, middlewares.ToRoom())
-	e.DELETE("room/logout", r.RoomAccessRouter.LogoutRoom, middlewares.ToRoom())
 
 
 	e.POST("sales/new", r.SalesRouter.NewSale, middlewares.ToAnyOne)

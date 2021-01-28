@@ -5,8 +5,8 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/yy-c00/hotel-api/authorization"
-	"github.com/yy-c00/hotel-api/model"
+	"github.com/yy-c00/hotel-demo/authorization"
+	"github.com/yy-c00/hotel-demo/model"
 )
 
 func successUser(c echo.Context) {

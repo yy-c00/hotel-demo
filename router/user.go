@@ -1,13 +1,13 @@
 package router
 
 import (
-	"github.com/yy-c00/hotel-api/authorization"
-	"github.com/yy-c00/hotel-api/database"
+	"github.com/yy-c00/hotel-demo/authorization"
+	"github.com/yy-c00/hotel-demo/database"
 	"net/http"
 	"time"
 
 	"github.com/labstack/echo/v4"
-	"github.com/yy-c00/hotel-api/model"
+	"github.com/yy-c00/hotel-demo/model"
 )
 
 type userAccessRouter struct {

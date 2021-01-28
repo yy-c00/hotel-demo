@@ -1,6 +1,6 @@
 package database
 
-import "github.com/yy-c00/hotel-api/model"
+import "github.com/yy-c00/hotel-demo/model"
 
 type roomAccessManager struct{}
 

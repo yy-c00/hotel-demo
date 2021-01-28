@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/yy-c00/hotel-api/authorization"
-	"github.com/yy-c00/hotel-api/database"
-	"github.com/yy-c00/hotel-api/router"
+	"github.com/yy-c00/hotel-demo/authorization"
+	"github.com/yy-c00/hotel-demo/database"
+	"github.com/yy-c00/hotel-demo/router"
 	"log"
 	"os"
 )

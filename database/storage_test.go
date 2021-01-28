@@ -2,7 +2,7 @@ package database
 
 import (
 	"fmt"
-	"github.com/yy-c00/hotel-api/model"
+	"github.com/yy-c00/hotel-demo/model"
 	"reflect"
 	"testing"
 )

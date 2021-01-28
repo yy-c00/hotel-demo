@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/yy-c00/hotel-api/database"
+	"github.com/yy-c00/hotel-demo/database"
 
 	"github.com/labstack/echo/v4"
-	"github.com/yy-c00/hotel-api/model"
+	"github.com/yy-c00/hotel-demo/model"
 )
 
 type storage struct {
